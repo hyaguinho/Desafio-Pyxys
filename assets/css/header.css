@@ -39,7 +39,7 @@ header nav a{
     font-size: 15px;
 }
 
-article{
+#prin{
     width: 100%;
     height: 913px;
     background-color: #E33F3F;
@@ -49,7 +49,7 @@ article{
     
 }
 
-article img{
+#prin img{
     width: 900px;
     height: 913px;
 }
@@ -125,7 +125,7 @@ article img{
 }
 
 
-article .elemento-opaco{
+#prin .elemento-opaco{
     width: 1001px;
     height: 400px;
     position: absolute;
@@ -139,15 +139,130 @@ article .elemento-opaco{
 
 }
 
-article #elemento-linha{
-    width: 600px;
-    height: 180px;
-    border: #FF9898 1px solid;
+#prin #elemento-solido{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #ffff;
     position: absolute;
-    border-radius: 40px;
-    transform: rotate(-48deg);
-    bottom: 0px;
+    top: 20px;
+    left: -80px;
+    transform: rotate(-45deg);
+
 }
+
+#prin #elemento-linha{
+    width: 350px;
+    height: 100px;
+    border: #FF9898 1px solid;
+    border-top: none ;
+    position: absolute;
+    top: 50px;
+    left: -90px;
+    transform: rotate(-45deg);
+
+}
+
+/* Rodape */
+
+footer{
+    width: 100%;
+    height: 455px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer #Conteudo{
+    background-color:#E33F3F;
+    width: 100%;
+    height: 405px;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+
+footer #Conteudo img{
+    margin-left: 80px;
+}
+
+footer #Conteudo p{
+    font-size: 22px;
+    margin: 0px;
+    width: 65%;
+}
+
+footer #Conteudo h1{
+    font-size: 35px;
+    font-family: bold;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+footer #Conteudo form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 80px;
+    margin-top: 10px;
+    /* background-color: darkgray; */
+}
+
+footer #Conteudo form #linha{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+
+footer #Conteudo form #linha input{
+    border: none;
+    border-radius: 10px;
+    width: 28%;
+    height: 50px;
+    background-color: #EF5D5D;
+    color: #ffff;
+    padding-left: 30px;
+}
+
+footer #Conteudo form #linha input::placeholder{
+    font-family: prompt;
+    color: #ffff;
+}
+
+footer #Conteudo form button{
+    width: 250px;
+    height: 55px;
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: -390px;
+    right: 15.5%;
+
+}
+
+footer #Conteudo form button a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: bold;
+}
+
+footer #Rodape{
+    background-color: #D13232;
+    width: 100%;
+    height: 50px;
+    color: #FFC1C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @font-face {
     font-family: prompt;

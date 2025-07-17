@@ -15,7 +15,7 @@
 
 
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/BrandPersona_Marca-03 1.png" alt="Logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/BrandPersona_Marca-03 1.png" alt="Logo">
 
         <nav>
             <a href="#">HOME</a>
@@ -29,9 +29,9 @@
 
     </header>
 
-    <article>
+    <article id="prin">
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/be-removebg-preview 2.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/be-removebg-preview 2.png" alt="">
     
         <article id="Caixa-orga">
             <article id="Caixa-informa">
@@ -45,11 +45,13 @@
             
             <article id="Caixa-produto">
                 <p>Um produto:</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/image 1.png" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/image 2.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/image 1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/image 2.jpg" alt="">
             </article>
         </article>
 
         <div class="elemento-opaco"></div>
+        <div id="elemento-solido"></div>
+        <div id="elemento-linha"></div>
     
     </article>
