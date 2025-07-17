@@ -1,6 +1,7 @@
 
 <footer>
     <article id="Conteudo">
+        <!-- <div id="elemento"></div> -->
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/Pose_11_apresentando_amiga0003 1.png" alt="">
             <article>
                 <p>vamos conversar</p>
@@ -8,7 +9,7 @@
                 <p>Qual é a melhor pessoa e e-mail de sua empresa para que o consultor 
                 do combo <strong>Brand Persona PYXYS + Ilustraria</strong> entre em contato?</p>
                 <form action="">
-                    <article id="linha">
+                    <article id="orga-linha">
                         <input type="text" placeholder="Nome">
                         <input type="text" placeholder="E-mail empresarial ">
                         <input type="text" placeholder="Cargo"> 

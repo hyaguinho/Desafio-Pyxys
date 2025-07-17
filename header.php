@@ -55,3 +55,6 @@
         <div id="elemento-linha"></div>
     
     </article>
+
+    <?php include get_template_directory() . '/partes/Um-novo-mercado.php';
+; ?>

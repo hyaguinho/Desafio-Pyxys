@@ -182,6 +182,28 @@ footer #Conteudo{
     display: flex;
     align-items: center;
     color: #ffff;
+
+
+}
+
+footer #Conteudo #elemento{
+    width: 290px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #ffff;
+    position: absolute;
+    top: 930px;
+    left: -160px;
+    transform: rotate(-48deg);
+}
+
+footer #Conteudo #linha{
+    width: 350px;
+    height: 100px;
+    border: #FF9898 1px solid;
+    border-top: none ;
+    position: absolute;
+    transform: rotate(-45deg);
 }
 
 footer #Conteudo img{
@@ -212,14 +234,14 @@ footer #Conteudo form{
     /* background-color: darkgray; */
 }
 
-footer #Conteudo form #linha{
+footer #Conteudo form #orga-linha{
     display: flex;
     justify-content: space-between;
     /* background-color: aquamarine; */
     width: 100%;
 }
 
-footer #Conteudo form #linha input{
+footer #Conteudo form #orga-linha input{
     border: none;
     border-radius: 10px;
     width: 28%;
@@ -229,12 +251,12 @@ footer #Conteudo form #linha input{
     padding-left: 30px;
 }
 
-footer #Conteudo form #linha input::placeholder{
+footer #Conteudo form #orga-linha input::placeholder{
     font-family: prompt;
     color: #ffff;
 }
 
-footer #Conteudo form button{
+/* footer #Conteudo form button{
     width: 250px;
     height: 55px;
     background-color: #2ECC71;
@@ -242,10 +264,10 @@ footer #Conteudo form button{
     border-radius: 10px;
     margin-top: 15px;
     position: absolute;
-    bottom: -390px;
+    bottom: -41%;
     right: 15.5%;
 
-}
+} */
 
 footer #Conteudo form button a{
     color: #ffff;
