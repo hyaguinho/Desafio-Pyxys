@@ -1,9 +1,10 @@
 
 <footer>
     <article id="Conteudo">
-        <!-- <div id="elemento"></div> -->
+        <div id="elemento"></div>
+        <div id="ele-linha"></div>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer/Pose_11_apresentando_amiga0003 1.png" alt="">
-            <article>
+            <article id="orga-footer">
                 <p>vamos conversar</p>
                 <h1>Você, gestor de uma grande empresa: vai deixar sua marca por fora da nova realidade digital?</h1>
                 <p>Qual é a melhor pessoa e e-mail de sua empresa para que o consultor 
@@ -21,7 +22,6 @@
 
     <article id="Rodape"><p>Brand Persona - 2022 - Todos os direitos reservados</p></article>
 </footer>
-
 
 <?php wp_footer(); ?>
 </body>

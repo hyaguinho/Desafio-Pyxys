@@ -18,7 +18,8 @@ add_action('after_setup_theme', function () {
 function nautilo_enqueue_scripts() {
     // CSS
     wp_enqueue_style('nautilo-style', get_template_directory_uri() . '/assets/css/header.css');
-
+    wp_enqueue_style('estilo-responsivo', get_template_directory_uri() . '/assets/css/responsivo.css');
 }
+
 
 add_action('wp_enqueue_scripts', 'nautilo_enqueue_scripts');

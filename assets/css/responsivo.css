@@ -1,0 +1,971 @@
+@media screen and (max-width:500px){
+    
+    header img{
+        width: 70px;
+        margin-left: 15px;
+    }
+
+    header nav{
+        width: 100%;
+        gap: 5px;
+        /* background-color: cadetblue; */
+    }
+
+    header nav a{
+        font-size: 8px;
+    }
+
+    #prin{
+        width: 100%;
+        height: 568px;
+        border-bottom-left-radius: 35px;
+    }
+
+    #prin img{
+        width: 65%;
+        height: 100%;
+    }
+
+    #Caixa-orga{
+        width: 100%;
+        /* background-color: darkmagenta; */
+    }
+
+    #Caixa-orga #Caixa-informa{
+        /* background-color: #2ECC71; */
+        margin-bottom: 0px;
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+        font-size: 10px;
+        width: 100%;
+        /* background-color: aquamarine; */
+        line-height: 15px;
+        margin: 0px;
+    }
+
+    #Caixa-orga #Caixa-informa p{
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+
+    #Caixa-orga #Caixa-informa button{
+        width: 75px;
+        height: 25px;
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+        font-size: 8px;
+    }
+
+    #Caixa-orga #Caixa-produto{
+        /* background-color: burlywood; */
+        margin: 0px;
+        font-size: 9px;
+    }
+
+    #Caixa-orga #Caixa-produto img{
+        width: 35px;
+        height: 25px;
+    }
+
+    #prin .elemento-opaco{
+        width: 100px;
+        right: -40px;
+        top: -120px;
+        border-radius: 100px;
+        transform: rotate(48deg)
+    }
+
+    #prin #elemento-solido{
+        width: 40px;
+        top: -35px;
+        left: -20px;
+        transform: rotate(45deg);
+    }
+
+    #prin #elemento-linha{
+        left: -200px;
+        top: -0px;
+    }
+
+    /* Rodape */
+
+    footer{
+        height: 100%;
+    }
+
+    footer #Conteudo{
+        height: 200px;
+        /* background-color: aqua; */
+    }
+
+    footer #Conteudo #orga-footer{
+        height: 100%;
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+
+    footer #Conteudo img{
+        width: 80%;
+        height: 100%;
+        margin-left: -40px;
+    }
+
+    footer #Conteudo #orga-footer p{
+        font-size: 8px;
+    }
+
+    footer #Conteudo #orga-footer h1{
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
+    footer #Conteudo #orga-footer form{
+        /* background-color: red; */
+        height: 30%;
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+        height: 20px;
+        padding-left: 5px;
+        font-size: 7px;
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+        font-size: 7px;
+    }
+
+    footer #Conteudo #orga-footer form button{
+        width: 33%;
+        height: 25px;
+        text-align: center;
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        font-size: 6px;
+        padding: 0px;
+    }
+
+    footer #Rodape{
+        height: 90%;
+        font-size: 10px;
+    }
+
+    /* Mercado */
+
+    #Conteudo-pai{
+
+    }
+
+    #Conteudo-pai #caixa-orga{
+
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu h3{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 h3{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text p{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text #red{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text h1{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #test{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha{
+    
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont h3{
+        
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont p{
+        
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo{
+
+    }
+
+    #Conteudo-pai #caixa-orga #Mask{
+
+    }
+
+
+    #Conteudo-pai #caixa-orga2{
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto{
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h4{
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h1{
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas{
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa{
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h1{
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h3{
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa p{
+
+    }
+
+
+}
+
+@media screen and (max-width:1024px){
+        header{
+
+    }
+
+    header img{
+
+    }
+
+    header nav{
+
+    }
+
+    header nav a{
+
+    }
+
+    #prin{
+
+    }
+
+    #prin img{
+    
+    }
+
+    #Caixa-orga{
+    
+        
+    }
+
+    #Caixa-orga #Caixa-informa{
+
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+
+    }
+
+    #Caixa-orga #Caixa-informa p{
+
+    }
+
+    #Caixa-orga #Caixa-informa button{
+
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+
+    }
+
+    #Caixa-orga #Caixa-produto{
+
+    }
+
+    #Caixa-orga #Caixa-produto img{
+    
+    }
+
+
+    #prin .elemento-opaco{
+
+
+    }
+
+    #prin #elemento-solido{
+
+    }
+
+    #prin #elemento-linha{
+
+
+    }
+
+    /* Rodape */
+
+    footer{
+    
+    }
+
+    footer #Conteudo{
+
+
+    }
+
+    footer #Conteudo #elemento{
+
+    }
+
+    footer #Conteudo #ele-linha{
+
+    }
+
+
+    footer #Conteudo #orga-footer{
+    
+    }
+
+    footer #Conteudo img{
+    
+    }
+
+    footer #Conteudo #orga-footer p{
+    
+
+    }
+
+    footer #Conteudo #orga-footer h1{
+
+    }
+
+    footer #Conteudo #orga-footer form{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha{
+        
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+    
+    }
+
+    footer #Conteudo #orga-footer form button{
+        
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        
+    }
+
+    footer #Rodape{
+
+    }
+}
+
+@media screen and (max-width:1440px){
+        header{
+
+    }
+
+    header img{
+
+    }
+
+    header nav{
+
+    }
+
+    header nav a{
+
+    }
+
+    #prin{
+
+    }
+
+    #prin img{
+    
+    }
+
+    #Caixa-orga{
+    
+        
+    }
+
+    #Caixa-orga #Caixa-informa{
+
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+
+    }
+
+    #Caixa-orga #Caixa-informa p{
+
+    }
+
+    #Caixa-orga #Caixa-informa button{
+
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+
+    }
+
+    #Caixa-orga #Caixa-produto{
+
+    }
+
+    #Caixa-orga #Caixa-produto img{
+    
+    }
+
+
+    #prin .elemento-opaco{
+
+
+    }
+
+    #prin #elemento-solido{
+
+    }
+
+    #prin #elemento-linha{
+
+
+    }
+
+    /* Rodape */
+
+    footer{
+    
+    }
+
+    footer #Conteudo{
+
+
+    }
+
+    footer #Conteudo #elemento{
+
+    }
+
+    footer #Conteudo #ele-linha{
+
+    }
+
+
+    footer #Conteudo #orga-footer{
+    
+    }
+
+    footer #Conteudo img{
+    
+    }
+
+    footer #Conteudo #orga-footer p{
+    
+
+    }
+
+    footer #Conteudo #orga-footer h1{
+
+    }
+
+    footer #Conteudo #orga-footer form{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha{
+        
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+    
+    }
+
+    footer #Conteudo #orga-footer form button{
+        
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        
+    }
+
+    footer #Rodape{
+
+    }
+}
+
+
+@media screen and (max-width:1680px){
+        header{
+
+    }
+
+    header img{
+
+    }
+
+    header nav{
+
+    }
+
+    header nav a{
+
+    }
+
+    #prin{
+
+    }
+
+    #prin img{
+    
+    }
+
+    #Caixa-orga{
+    
+        
+    }
+
+    #Caixa-orga #Caixa-informa{
+
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+
+    }
+
+    #Caixa-orga #Caixa-informa p{
+
+    }
+
+    #Caixa-orga #Caixa-informa button{
+
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+
+    }
+
+    #Caixa-orga #Caixa-produto{
+
+    }
+
+    #Caixa-orga #Caixa-produto img{
+    
+    }
+
+
+    #prin .elemento-opaco{
+
+
+    }
+
+    #prin #elemento-solido{
+
+    }
+
+    #prin #elemento-linha{
+
+
+    }
+
+    /* Rodape */
+
+    footer{
+    
+    }
+
+    footer #Conteudo{
+
+
+    }
+
+    footer #Conteudo #elemento{
+
+    }
+
+    footer #Conteudo #ele-linha{
+
+    }
+
+
+    footer #Conteudo #orga-footer{
+    
+    }
+
+    footer #Conteudo img{
+    
+    }
+
+    footer #Conteudo #orga-footer p{
+    
+
+    }
+
+    footer #Conteudo #orga-footer h1{
+
+    }
+
+    footer #Conteudo #orga-footer form{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha{
+        
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+    
+    }
+
+    footer #Conteudo #orga-footer form button{
+        
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        
+    }
+
+    footer #Rodape{
+
+    }
+}
+
+@media screen and (max-width:1920px){
+        header{
+
+    }
+
+    header img{
+
+    }
+
+    header nav{
+
+    }
+
+    header nav a{
+
+    }
+
+    #prin{
+
+    }
+
+    #prin img{
+    
+    }
+
+    #Caixa-orga{
+    
+        
+    }
+
+    #Caixa-orga #Caixa-informa{
+
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+
+    }
+
+    #Caixa-orga #Caixa-informa p{
+
+    }
+
+    #Caixa-orga #Caixa-informa button{
+
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+
+    }
+
+    #Caixa-orga #Caixa-produto{
+
+    }
+
+    #Caixa-orga #Caixa-produto img{
+    
+    }
+
+
+    #prin .elemento-opaco{
+
+
+    }
+
+    #prin #elemento-solido{
+
+    }
+
+    #prin #elemento-linha{
+
+
+    }
+
+    /* Rodape */
+
+    footer{
+    
+    }
+
+    footer #Conteudo{
+
+
+    }
+
+    footer #Conteudo #elemento{
+
+    }
+
+    footer #Conteudo #ele-linha{
+
+    }
+
+
+    footer #Conteudo #orga-footer{
+    
+    }
+
+    footer #Conteudo img{
+    
+    }
+
+    footer #Conteudo #orga-footer p{
+    
+
+    }
+
+    footer #Conteudo #orga-footer h1{
+
+    }
+
+    footer #Conteudo #orga-footer form{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha{
+        
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+    
+    }
+
+    footer #Conteudo #orga-footer form button{
+        
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        
+    }
+
+    footer #Rodape{
+
+    }
+}
+
+@media screen and (max-width:2560px){
+        header{
+
+    }
+
+    header img{
+
+    }
+
+    header nav{
+
+    }
+
+    header nav a{
+
+    }
+
+    #prin{
+
+    }
+
+    #prin img{
+    
+    }
+
+    #Caixa-orga{
+    
+        
+    }
+
+    #Caixa-orga #Caixa-informa{
+
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+
+    }
+
+    #Caixa-orga #Caixa-informa p{
+
+    }
+
+    #Caixa-orga #Caixa-informa button{
+
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+
+    }
+
+    #Caixa-orga #Caixa-produto{
+
+    }
+
+    #Caixa-orga #Caixa-produto img{
+    
+    }
+
+
+    #prin .elemento-opaco{
+
+
+    }
+
+    #prin #elemento-solido{
+
+    }
+
+    #prin #elemento-linha{
+
+
+    }
+
+    /* Rodape */
+
+    footer{
+    
+    }
+
+    footer #Conteudo{
+
+
+    }
+
+    footer #Conteudo #elemento{
+
+    }
+
+    footer #Conteudo #ele-linha{
+
+    }
+
+
+    footer #Conteudo #orga-footer{
+    
+    }
+
+    footer #Conteudo img{
+    
+    }
+
+    footer #Conteudo #orga-footer p{
+    
+
+    }
+
+    footer #Conteudo #orga-footer h1{
+
+    }
+
+    footer #Conteudo #orga-footer form{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha{
+        
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input{
+    
+    }
+
+    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
+    
+    }
+
+    footer #Conteudo #orga-footer form button{
+        
+
+    }
+
+    footer #Conteudo #orga-footer form button a{
+        
+    }
+
+    footer #Rodape{
+
+    }
+}

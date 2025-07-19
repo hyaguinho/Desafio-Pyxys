@@ -56,5 +56,5 @@
     
     </article>
 
-    <?php include get_template_directory() . '/partes/Um-novo-mercado.php';
-; ?>
+    <?php include get_template_directory() . '/partes/Um-novo-mercado.php';?>
+    

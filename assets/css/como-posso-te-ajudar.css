@@ -1,0 +1,85 @@
+
+#conteudo-mãe{
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#conteudo-mãe #orga{
+    width: 80%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+#conteudo-mãe #orga #orga-cont{
+    /* background-color: darkolivegreen; */
+}
+
+#conteudo-mãe #orga #orga-cont h4{
+    color: #E33F3F;
+    margin: 0;
+}
+
+#conteudo-mãe #orga #orga-cont h2{
+    color: #404044;
+    font-family: bold;
+    font-size: 32px;
+    margin: 0;
+}
+
+#conteudo-mãe #orga #orga-cont p{
+    color: #727272;
+    width: 87%;
+    margin-top: 15px;
+}
+
+
+#conteudo-mãe #orga #orga-cont #orga-caixas{
+    /* background-color: gold; */
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .linha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: darkkhaki; */
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont{
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #DCF2ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont h3{
+    width: 180px;
+    font-size: 18px;
+    color: #404044;
+    font-family: prompt;
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Tech{
+    width: 150px;
+}
+
+#conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Data{
+    width: 170px;
+}
