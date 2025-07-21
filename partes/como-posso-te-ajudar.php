@@ -5,9 +5,9 @@
 <article id="conteudo-mãe">
     <article id="orga">
     
-        <img id="pose" src="<?php echo get_template_directory_uri(); ?>../assets/img/como-posso-te-ajudar/Group 36.png" alt="Logo">
+        <img id="trio-m" src="<?php echo get_template_directory_uri(); ?>../assets/img/como-posso-te-ajudar/Group 36.png" alt="Logo">
         <article id="orga-cont">
-            <h4>como posso te ajudar? </h4>
+            <h4>Como posso te ajudar? </h4>
             <h2>Oi, eu sou a Bê, do Brand Persona!</h2>
             <p>O combo Brand Persona PYXYS + Ilustraria vai muito além de desenhar um avatar 3D: é o primeiro do Brasil a combinar a criação da persona virtual com um plano de performance, voltado para resultados do negócio. “Vem comigo que sua marca vai aprender a escutar e conversar com seu cliente, construindo uma comunidade no universo digital”, convida Bê, a avatar do Brand Persona.</p>
             <article id="orga-caixas">

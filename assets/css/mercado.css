@@ -13,8 +13,8 @@
 #Conteudo-pai #caixa-orga{
     /* background-color: burlywood; */
     width: 85%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3%;
+    margin-bottom: 3%;
     display: flex;
     padding-left: 40px;
 }
@@ -88,7 +88,7 @@
 }
 
 #Conteudo-pai #caixa-orga #caixa-text p{
-    font-size: 18px;
+    font-size: 110%;
     color: #777777;
     margin: 0;
 }
@@ -99,7 +99,7 @@
 }
 
 #Conteudo-pai #caixa-orga #caixa-text h1{
-    font-size: 32px;
+    font-size: 200%;
     width: 76%;
     font-family: bold;
     color: #494949;
@@ -113,7 +113,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 2%;
     gap: 40px;
 }
 
@@ -148,7 +148,9 @@
 
 
 #Conteudo-pai #caixa-orga #Mask{
-    margin-left: 250px;
+    width: 35%;
+    height: 100%;
+    margin-left: 15%;
 }
 
 

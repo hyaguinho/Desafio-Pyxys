@@ -1,4 +1,5 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:360px) {
+/*------------------------------------------------------------------------------Cabeçario-----------------------------------------------------------------------------*/
     
     header img{
         width: 70px;
@@ -12,12 +13,12 @@
     }
 
     header nav a{
-        font-size: 8px;
+        font-size: 5px;
     }
 
     #prin{
         width: 100%;
-        height: 568px;
+        height: 508px;
         border-bottom-left-radius: 35px;
     }
 
@@ -29,6 +30,7 @@
     #Caixa-orga{
         width: 100%;
         /* background-color: darkmagenta; */
+        margin-right: 10px;
     }
 
     #Caixa-orga #Caixa-informa{
@@ -45,7 +47,7 @@
     }
 
     #Caixa-orga #Caixa-informa p{
-        font-size: 9px;
+        font-size: 7px;
         margin-bottom: 5px;
     }
 
@@ -65,14 +67,14 @@
     }
 
     #Caixa-orga #Caixa-produto img{
-        width: 35px;
-        height: 25px;
+        width: 25px;
+        height: 15px;
     }
 
     #prin .elemento-opaco{
         width: 100px;
-        right: -40px;
-        top: -120px;
+        right: -100px;
+        top: -180px;
         border-radius: 100px;
         transform: rotate(48deg)
     }
@@ -85,18 +87,269 @@
     }
 
     #prin #elemento-linha{
-        left: -200px;
+        left: -230px;
         top: -0px;
     }
+/*--------------------------------------------------------------------------------Mercado-----------------------------------------------------------------------------*/
+    
+    #Conteudo-pai #caixa-orga{
+        /* background-color: rgb(122, 233, 137); */
+        height: 20% !important;
+        width: 90% !important;
+        flex-direction: column;
+        gap: 20px !important;
 
-    /* Rodape */
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu{
+        right: 190px !important;
+        top: 1242px !important;
+        width: 145px !important;
+        height: 40px !important;
+        border-radius: 6px !important;
+        /* border: 2px red solid !important;; */
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu h3{
+        font-size: 8px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo{
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+  #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo img{
+        width: 11px !important;
+        height: 11px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2{
+        right: 25px !important;
+        top: 1082px !important;
+        width: 145px !important;
+        height: 40px !important;
+        border-radius: 6px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 h3{
+       font-size: 8px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo img{
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text{
+        /* background-color: rgb(255, 20, 235); */
+        width: 100% !important;
+        margin: 0px !important;
+
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text p{
+        font-size: 14px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text #red{
+        font-size: 14px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text h1{
+        font-size: 20px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test{
+        /* background-color: greenyellow; */
+        width: 100% !important;
+        margin-left: -20px !important;
+        height: 100% !important;
+        gap: 15px !important;
+        /* width: 100% !important; */
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha{
+        /* background-color: grey; */
+        width: 100% !important;
+        margin-right: 0px !important;
+        height: 100px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont h3{
+        font-size: 13px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont p{
+        font-size: 10px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo img{
+        width: 15px !important; 
+        height: 15px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #Mask{
+        width: 60% !important;
+        height: 100% !important;
+    }
+
+    #Conteudo-pai #caixa-orga2{
+        width: 90% !important;
+        /* background-color: cornflowerblue; */
+        padding-left: 0px !important;
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h4{
+        font-size: 10px !important;
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h1{
+        font-size: 18px !important;
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas{
+        width: 100% !important;
+        /* background-color: darkblue; */
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa{
+        width: 220px !important;
+        height: 214px !important;
+        padding-top: 10px !important;
+        padding-left: 10px !important;
+        padding: 20px !important;
+    }
+
+        
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h1{
+        font-size: 25px !important;
+        margin-bottom: 50px !important;
+    }
+    
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h3{
+        color: #DCF2ED;
+        font-size: 14px !important;
+        /* background-color: chartreuse; */
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa p{
+        color: #DCF2ED;
+        font-size: 10px !important;
+    }
+
+
+    /*------------------------------------------------------------------------Como-posso-te-ajudar--------------------------------------------------------------------*/
+    
+    #conteudo-mãe{
+        /* background-color: darkgoldenrod; */
+        /* margin-left: 10% !important; */
+        flex-direction: column !important;
+    }
+
+    #conteudo-mãe #orga{
+        flex-direction: column !important;
+        /* background-color: aqua; */
+        width: 90% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont{
+        /* background-color: darkolivegreen; */
+    }
+
+    #conteudo-mãe #orga #orga-cont p{
+        /* background-color: darkolivegreen; */
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont h2{
+        /* background-color: darkolivegreen; */
+        font-size: 20px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont h4{
+        font-size: 14px !important;
+        margin-top: 15px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas{
+        /* background-color: gold; */
+        padding: 0px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .linha{
+        /* background-color: darkkhaki; */
+        width: 50% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont{
+        /* background-color: coral; */
+        gap: 2px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo{
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo img{
+        width: 15px !important;
+        height: 15px !important;
+        }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont h3{
+        width: 130px !important;
+        /* background-color: darkorchid; */
+        margin-left: 5px;
+        font-size: 12px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Tech{
+        width: 100px !important;
+        /* background-color: deepskyblue; */
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Data{
+        width: 110px !important;
+    }
+/*----------------------------------------------------------------------------------Rodape----------------------------------------------------------------------------*/
 
     footer{
-        height: 100%;
+        height: 100% !important;
     }
 
     footer #Conteudo{
         height: 200px;
+        /* background-color: aqua; */
+    }
+
+    footer #Conteudo #elemento{
+        height: 200px;
+        display: none !important;
+        /* background-color: aqua; */
+    }
+
+    footer #Conteudo #ele-linha{
+        height: 200px;
+        display: none !important;
         /* background-color: aqua; */
     }
 
@@ -142,11 +395,10 @@
         width: 33%;
         height: 25px;
         text-align: center;
-
     }
-
     footer #Conteudo #orga-footer form button a{
-        font-size: 6px;
+        font-size: 5px;
+        line-height: 1px !important;
         padding: 0px;
     }
 
@@ -155,817 +407,836 @@
         font-size: 10px;
     }
 
-    /* Mercado */
+}
 
-    #Conteudo-pai{
-
+@media screen and (min-width:361px) and ( max-width:393px) {
+/*------------------------------------------------------------------------------Cabeçario-----------------------------------------------------------------------------*/
+    
+    header img{
+        width: 70px;
+        margin-left: 15px;
     }
 
+    header nav{
+        width: 100%;
+        gap: 5px;
+        /* background-color: cadetblue; */
+    }
+
+    header nav a{
+        font-size: 6px;
+    }
+
+    #prin{
+        width: 100%;
+        height: 508px;
+        border-bottom-left-radius: 35px;
+    }
+
+    #prin img{
+        width: 65%;
+        height: 100%;
+    }
+
+    #Caixa-orga{
+        width: 100%;
+        /* background-color: darkmagenta; */
+        margin-right: 10px;
+    }
+
+    #Caixa-orga #Caixa-informa{
+        /* background-color: #2ECC71; */
+        margin-bottom: 0px;
+    }
+
+    #Caixa-orga #Caixa-informa h1{
+        font-size: 10px;
+        width: 100%;
+        /* background-color: aquamarine; */
+        line-height: 15px;
+        margin: 0px;
+    }
+
+    #Caixa-orga #Caixa-informa p{
+        font-size: 7px;
+        margin-bottom: 5px;
+    }
+
+    #Caixa-orga #Caixa-informa button{
+        width: 75px;
+        height: 25px;
+    }
+
+    #Caixa-orga #Caixa-informa button a{
+        font-size: 8px;
+    }
+
+    #Caixa-orga #Caixa-produto{
+        /* background-color: burlywood; */
+        margin: 0px;
+        font-size: 9px;
+    }
+
+    #Caixa-orga #Caixa-produto img{
+        width: 25px;
+        height: 15px;
+    }
+
+    #prin .elemento-opaco{
+        width: 100px;
+        right: -100px;
+        top: -180px;
+        border-radius: 100px;
+        transform: rotate(48deg)
+    }
+
+    #prin #elemento-solido{
+        width: 40px;
+        top: -35px;
+        left: -20px;
+        transform: rotate(45deg);
+    }
+
+    #prin #elemento-linha{
+        left: -230px;
+        top: -0px;
+    }
+/*--------------------------------------------------------------------------------Mercado-----------------------------------------------------------------------------*/
+    
     #Conteudo-pai #caixa-orga{
+        /* background-color: rgb(122, 233, 137); */
+        height: 20% !important;
+        width: 90% !important;
+        flex-direction: column;
+        gap: 20px !important;
 
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu{
-    
+        right: 190px !important;
+        top: 1205px !important;
+        width: 145px !important;
+        height: 40px !important;
+        border-radius: 6px !important;
+        /* border: 2px red solid !important;; */
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu h3{
-    
+        font-size: 8px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo{
-    
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+  #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo img{
+        width: 11px !important;
+        height: 11px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu2{
-    
+        right: 25px !important;
+        top: 1040px !important;
+        width: 145px !important;
+        height: 40px !important;
+        border-radius: 6px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu2 h3{
-    
+       font-size: 8px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo{
-    
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo img{
+        width: 10px !important;
+        height: 10px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-text{
-    
+        /* background-color: rgb(255, 20, 235); */
+        width: 100% !important;
+        margin: 0px !important;
+
     }
 
     #Conteudo-pai #caixa-orga #caixa-text p{
-    
+        font-size: 14px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-text #red{
-    
+        font-size: 14px !important;
     }
 
     #Conteudo-pai #caixa-orga #caixa-text h1{
-    
+        font-size: 20px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
     }
 
     #Conteudo-pai #caixa-orga #test{
-    
+        /* background-color: greenyellow; */
+        width: 100% !important;
+        margin-left: -20px !important;
+        height: 100% !important;
+        gap: 15px !important;
+        /* width: 100% !important; */
     }
 
     #Conteudo-pai #caixa-orga #test .linha{
-    
+        /* background-color: grey; */
+        width: 100% !important;
+        margin-right: 0px !important;
+        height: 100px !important;
     }
 
     #Conteudo-pai #caixa-orga #test .linha .caixa-cont h3{
-        
+        font-size: 13px !important;
     }
 
     #Conteudo-pai #caixa-orga #test .linha .caixa-cont p{
-        
+        font-size: 10px !important;
     }
 
     #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo{
+        width: 20px !important;
+        height: 20px !important;
+    }
 
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo img{
+        width: 15px !important; 
+        height: 15px !important;
     }
 
     #Conteudo-pai #caixa-orga #Mask{
-
+        width: 60% !important;
+        height: 100% !important;
+        /* background-color: blueviolet; */
     }
-
 
     #Conteudo-pai #caixa-orga2{
+        width: 90% !important;
+        /* background-color: cornflowerblue; */
+        padding-left: 0px !important;
         
-    }
-
-    #Conteudo-pai #caixa-orga2 #juntar-texto{
-
     }
 
     #Conteudo-pai #caixa-orga2 #juntar-texto h4{
-
+        font-size: 10px !important;
     }
 
     #Conteudo-pai #caixa-orga2 #juntar-texto h1{
-        
+        font-size: 18px !important;
     }
 
     #Conteudo-pai #caixa-orga2 #orga-caixas{
+        width: 100% !important;
+        /* background-color: darkblue; */
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: 10px !important;
 
     }
 
     #Conteudo-pai #caixa-orga2 #orga-caixas .caixa{
-
+        width: 220px !important;
+        height: 214px !important;
+        padding-top: 10px !important;
+        padding-left: 10px !important;
+        padding: 20px !important;
     }
 
+        
     #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h1{
-        
+        font-size: 25px !important;
+        margin-bottom: 50px !important;
     }
-
+    
     #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h3{
-        
+        color: #DCF2ED;
+        font-size: 14px !important;
+        /* background-color: chartreuse; */
     }
 
     #Conteudo-pai #caixa-orga2 #orga-caixas .caixa p{
-
+        color: #DCF2ED;
+        font-size: 10px !important;
     }
 
 
-}
-
-@media screen and (max-width:1024px){
-        header{
-
-    }
-
-    header img{
-
-    }
-
-    header nav{
-
-    }
-
-    header nav a{
-
-    }
-
-    #prin{
-
-    }
-
-    #prin img{
+    /*------------------------------------------------------------------------Como-posso-te-ajudar--------------------------------------------------------------------*/
     
+    #conteudo-mãe{
+        /* background-color: darkgoldenrod; */
+        /* margin-left: 10% !important; */
+        flex-direction: column !important;
     }
 
-    #Caixa-orga{
-    
-        
+    #conteudo-mãe #orga{
+        flex-direction: column !important;
+        /* background-color: aqua; */
+        width: 90% !important;
     }
 
-    #Caixa-orga #Caixa-informa{
-
+    #conteudo-mãe #orga #orga-cont{
+        /* background-color: darkolivegreen; */
     }
 
-    #Caixa-orga #Caixa-informa h1{
-
+    #conteudo-mãe #orga #orga-cont p{
+        /* background-color: darkolivegreen; */
+        font-size: 14px !important;
+        width: 100% !important;
     }
 
-    #Caixa-orga #Caixa-informa p{
-
+    #conteudo-mãe #orga #orga-cont h2{
+        /* background-color: darkolivegreen; */
+        font-size: 20px !important;
     }
 
-    #Caixa-orga #Caixa-informa button{
-
+    #conteudo-mãe #orga #orga-cont h4{
+        font-size: 14px !important;
+        margin-top: 15px !important;
     }
 
-    #Caixa-orga #Caixa-informa button a{
-
+    #conteudo-mãe #orga #orga-cont #orga-caixas{
+        /* background-color: gold; */
+        padding: 0px !important;
     }
 
-    #Caixa-orga #Caixa-produto{
-
+    #conteudo-mãe #orga #orga-cont #orga-caixas .linha{
+        /* background-color: darkkhaki; */
+        width: 50% !important;
     }
 
-    #Caixa-orga #Caixa-produto img{
-    
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont{
+        /* background-color: coral; */
+        gap: 2px !important;
     }
 
-
-    #prin .elemento-opaco{
-
-
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo{
+        width: 35px !important;
+        height: 35px !important;
     }
 
-    #prin #elemento-solido{
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo img{
+        width: 15px !important;
+        height: 15px !important;
+        }
 
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont h3{
+        width: 130px !important;
+        /* background-color: darkorchid; */
+        margin-left: 5px;
+        font-size: 12px !important;
     }
 
-    #prin #elemento-linha{
-
-
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Tech{
+        width: 100px !important;
+        /* background-color: deepskyblue; */
     }
 
-    /* Rodape */
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Data{
+        width: 110px !important;
+    }
+/*----------------------------------------------------------------------------------Rodape----------------------------------------------------------------------------*/
 
     footer{
-    
+        height: 100% !important;
     }
 
     footer #Conteudo{
-
-
+        height: 200px;
+        /* background-color: aqua; */
     }
 
     footer #Conteudo #elemento{
-
+        height: 200px;
+        display: none !important;
+        /* background-color: aqua; */
     }
 
     footer #Conteudo #ele-linha{
-
+        height: 200px;
+        display: none !important;
+        /* background-color: aqua; */
     }
 
-
     footer #Conteudo #orga-footer{
-    
+        height: 100%;
+        margin-left: -70px;
+        margin-top: 20px;
     }
 
     footer #Conteudo img{
-    
+        width: 80%;
+        height: 100%;
+        margin-left: -40px;
     }
 
     footer #Conteudo #orga-footer p{
-    
-
+        font-size: 8px;
     }
 
     footer #Conteudo #orga-footer h1{
-
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 2px;
+        margin-bottom: 4px;
     }
 
     footer #Conteudo #orga-footer form{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha{
-        
+        /* background-color: red; */
+        height: 30%;
     }
 
     footer #Conteudo #orga-footer form #orga-linha input{
-    
+        height: 20px;
+        padding-left: 5px;
+        font-size: 7px;
     }
 
     footer #Conteudo #orga-footer form #orga-linha input::placeholder{
-    
+        font-size: 7px;
     }
 
     footer #Conteudo #orga-footer form button{
-        
-
+        width: 33%;
+        height: 25px;
+        text-align: center;
     }
-
     footer #Conteudo #orga-footer form button a{
-        
+        font-size: 5px;
+        line-height: 1px !important;
+        padding: 0px;
     }
 
     footer #Rodape{
-
+        height: 90%;
+        font-size: 10px;
     }
+
 }
 
-@media screen and (max-width:1440px){
-        header{
-
-    }
-
+@media screen and (min-width:767px) and ( max-width:1114px) {
+/*------------------------------------------------------------------------------Cabeçario-----------------------------------------------------------------------------*/
+    
     header img{
-
+        width: 210px;
+        margin-left: 15px;
     }
 
     header nav{
-
+        width: 100%;
+        gap: 7px;
+        /* background-color: cadetblue; */
     }
 
     header nav a{
-
+        font-size: 16px !important;
     }
 
     #prin{
-
+        width: 100%;
+        height: 1008px;
+        align-items: center;
+        border-bottom-left-radius: 105px;
     }
 
     #prin img{
-    
+        width: 65%;
+        height: 100%;
     }
 
     #Caixa-orga{
-    
-        
+        width: 100%;
+        height: 85%;
+        /* background-color: darkmagenta; */
     }
 
     #Caixa-orga #Caixa-informa{
-
+        /* background-color: #2ECC71; */
+        width: 100%;
+        height: 64%;
+        margin-top: 0px;
     }
 
     #Caixa-orga #Caixa-informa h1{
-
+        font-size: 30px;
+        width: 100%;
+        /* background-color: aquamarine; */
+        line-height: normal;
+        margin: 0px;
     }
 
     #Caixa-orga #Caixa-informa p{
-
+        font-size: 20px;
+        margin-bottom: 5px;
     }
 
     #Caixa-orga #Caixa-informa button{
-
+        width: 65%;
+        height: 85px;
     }
 
     #Caixa-orga #Caixa-informa button a{
-
+        font-size: 15px;
     }
 
     #Caixa-orga #Caixa-produto{
-
+        /* background-color: burlywood; */
+        margin: 0px;
+        font-size: 16px;
+        width: 100%;
+        padding: 0px;
     }
 
     #Caixa-orga #Caixa-produto img{
+        width: 75px;
+        height: 35px;
     
     }
 
-
     #prin .elemento-opaco{
-
-
+        width: 210px;
+        right: -30px;
+        top: -40px;
+        border-radius: 100px;
+        transform: rotate(48deg)
     }
 
     #prin #elemento-solido{
-
+        width: 40px;
+        top: -35px;
+        left: -20px;
+        transform: rotate(45deg);
     }
 
     #prin #elemento-linha{
-
+        left: -230px;
+        top: -0px;
+    }
+/*--------------------------------------------------------------------------------Mercado-----------------------------------------------------------------------------*/
+    
+    #Conteudo-pai #caixa-orga{
+        /* background-color: rgb(122, 233, 137); */
+        height: 20% !important;
+        width: 90% !important;
+        justify-content: center !important;
+        flex-direction: column;
+        gap: 40px !important;
 
     }
 
-    /* Rodape */
+    #Conteudo-pai #caixa-orga #caixa-cont-flu{
+        right: 590px !important;
+        top: 2200px !important;
+        width: 253px !important;
+        height: 90px !important;
+        border-radius: 6px !important;
+        /* border: 2px red solid !important;; */
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu h3{
+        font-size: 15px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo{
+        width: 32px !important;
+        height: 32px !important;
+    }
+
+  #Conteudo-pai #caixa-orga #caixa-cont-flu .circulo img{
+        width: 21px !important;
+        height: 21px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2{
+        right: 235px !important;
+        top: 1770px !important;
+        width: 242px !important;
+        height: 88px !important;
+        border-radius: 6px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 h3{
+       font-size: 15px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo{
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-cont-flu2 .circulo img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text{
+        /* background-color: rgb(255, 20, 235); */
+        width: 100% !important;
+        margin: 0px !important;
+
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text p{
+        font-size: 25px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text #red{
+        font-size: 25px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #caixa-text h1{
+        font-size: 30px !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test{
+        /* background-color: greenyellow; */
+        width: 100% !important;
+        margin-left: -20px !important;
+        height: 100% !important;
+        gap: 15px !important;
+        /* width: 100% !important; */
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha{
+        /* background-color: grey; */
+        width: 100% !important;
+        margin-right: 0px !important;
+        height: 150px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont h3{
+        font-size: 25px !important;
+        /* background-color: darkgoldenrod; */
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont p{
+        font-size: 15px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo{
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #test .linha .caixa-cont .circulo img{
+        width: 20px !important; 
+        height: 20px !important;
+    }
+
+    #Conteudo-pai #caixa-orga #Mask{
+        width: 60% !important;
+        height: 100% !important;
+        /* background-color: blueviolet; */
+    }
+
+    #Conteudo-pai #caixa-orga2{
+        width: 90% !important;
+        /* background-color: cornflowerblue; */
+        padding-left: 0px !important;
+        
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h4{
+        font-size: 25px !important;
+    }
+
+    #Conteudo-pai #caixa-orga2 #juntar-texto h1{
+        font-size: 30px !important;
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas{
+        width: 100% !important;
+        /* background-color: darkblue; */
+        align-items: center !important;
+        gap: 10px !important;
+
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa{
+        width: 220px !important;
+        height: 214px !important;
+        /* padding-top: 10px !important; */
+        /* padding-left: 10px !important; */
+        /* padding: 20px !important; */
+    }
+
+        
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h1{
+        font-size: 28px !important;
+        margin-bottom: 50px !important;
+    }
+    
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa h3{
+        color: #DCF2ED;
+        font-size: 16px !important;
+        /* background-color: chartreuse; */
+    }
+
+    #Conteudo-pai #caixa-orga2 #orga-caixas .caixa p{
+        color: #DCF2ED;
+        font-size: 12px !important;
+    }
+
+
+    /*------------------------------------------------------------------------Como-posso-te-ajudar--------------------------------------------------------------------*/
+    
+    #conteudo-mãe{
+        /* background-color: darkgoldenrod; */
+        /* margin-left: 10% !important; */
+        flex-direction: column !important;
+    }
+
+    #conteudo-mãe #orga{
+        flex-direction: column !important;
+        /* background-color: aqua; */
+        width: 90% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont{
+        /* background-color: darkolivegreen; */
+    }
+
+    #conteudo-mãe #orga #orga-cont p{
+        /* background-color: darkolivegreen; */
+        font-size: 25px !important;
+        width: 100% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont h2{
+        /* background-color: darkolivegreen; */
+        font-size: 30px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont h4{
+        font-size: 25px !important;
+        margin-top: 15px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas{
+        /* background-color: gold; */
+        padding: 0px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .linha{
+        /* background-color: darkkhaki; */
+        width: 50% !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont{
+        /* background-color: coral; */
+        gap: 2px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo{
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont .circulo img{
+        width: 25px !important;
+        height: 25px !important;
+        }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont h3{
+        width: 150px !important;
+        /* background-color: darkorchid; */
+        margin-left: 5px;
+        font-size: 15px !important;
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Tech{
+        width: 125px !important;
+        /* background-color: deepskyblue; */
+    }
+
+    #conteudo-mãe #orga #orga-cont #orga-caixas .caixas-cont #Data{
+        width: 135px !important;
+    }
+/*----------------------------------------------------------------------------------Rodape----------------------------------------------------------------------------*/
 
     footer{
-    
+        height: 100% !important;
     }
 
     footer #Conteudo{
-
-
+        height: 300px;
+        /* background-color: aqua; */
     }
 
     footer #Conteudo #elemento{
-
+        height: 200px;
+        display: none !important;
+        /* background-color: aqua; */
     }
 
     footer #Conteudo #ele-linha{
-
+        height: 200px;
+        display: none !important;
+        /* background-color: aqua; */
     }
 
-
     footer #Conteudo #orga-footer{
-    
+        height: 100%;
+        margin-left: -70px;
+        margin-top: 20px;
     }
 
     footer #Conteudo img{
-    
+        width: 50%;
+        height: 100%;
+        margin-left: -40px;
     }
 
     footer #Conteudo #orga-footer p{
-    
-
+        font-size: 15px;
     }
 
     footer #Conteudo #orga-footer h1{
-
+        font-size: 18px;
+        line-height: normal;
+        margin-top: 2px;
+        margin-bottom: 4px;
     }
 
     footer #Conteudo #orga-footer form{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha{
-        
+        /* background-color: red; */
+        height: 30%;
     }
 
     footer #Conteudo #orga-footer form #orga-linha input{
-    
+        height: 20px;
+        padding-left: 5px;
+        font-size: 14px;
     }
 
     footer #Conteudo #orga-footer form #orga-linha input::placeholder{
-    
+        font-size: 14px;
     }
 
     footer #Conteudo #orga-footer form button{
-        
-
+        width: 33%;
+        height: 25px;
+        text-align: center;
     }
-
     footer #Conteudo #orga-footer form button a{
-        
+        font-size: 11px;
+        line-height: 1px !important;
+        padding: 0px;
     }
 
     footer #Rodape{
-
+        height: 90%;
+        font-size: 13px;
     }
+
 }
 
-
-@media screen and (max-width:1680px){
-        header{
-
-    }
-
-    header img{
-
-    }
-
-    header nav{
-
-    }
-
-    header nav a{
-
-    }
-
-    #prin{
-
-    }
-
-    #prin img{
-    
-    }
-
-    #Caixa-orga{
-    
-        
-    }
-
-    #Caixa-orga #Caixa-informa{
-
-    }
-
-    #Caixa-orga #Caixa-informa h1{
-
-    }
-
-    #Caixa-orga #Caixa-informa p{
-
-    }
-
-    #Caixa-orga #Caixa-informa button{
-
-    }
-
-    #Caixa-orga #Caixa-informa button a{
-
-    }
-
-    #Caixa-orga #Caixa-produto{
-
-    }
-
-    #Caixa-orga #Caixa-produto img{
-    
-    }
-
-
-    #prin .elemento-opaco{
-
-
-    }
-
-    #prin #elemento-solido{
-
-    }
-
-    #prin #elemento-linha{
-
-
-    }
-
-    /* Rodape */
-
-    footer{
-    
-    }
-
-    footer #Conteudo{
-
-
-    }
-
-    footer #Conteudo #elemento{
-
-    }
-
-    footer #Conteudo #ele-linha{
-
-    }
-
-
-    footer #Conteudo #orga-footer{
-    
-    }
-
-    footer #Conteudo img{
-    
-    }
-
-    footer #Conteudo #orga-footer p{
-    
-
-    }
-
-    footer #Conteudo #orga-footer h1{
-
-    }
-
-    footer #Conteudo #orga-footer form{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha{
-        
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
-    
-    }
-
-    footer #Conteudo #orga-footer form button{
-        
-
-    }
-
-    footer #Conteudo #orga-footer form button a{
-        
-    }
-
-    footer #Rodape{
-
-    }
-}
-
-@media screen and (max-width:1920px){
-        header{
-
-    }
-
-    header img{
-
-    }
-
-    header nav{
-
-    }
-
-    header nav a{
-
-    }
-
-    #prin{
-
-    }
-
-    #prin img{
-    
-    }
-
-    #Caixa-orga{
-    
-        
-    }
-
-    #Caixa-orga #Caixa-informa{
-
-    }
-
-    #Caixa-orga #Caixa-informa h1{
-
-    }
-
-    #Caixa-orga #Caixa-informa p{
-
-    }
-
-    #Caixa-orga #Caixa-informa button{
-
-    }
-
-    #Caixa-orga #Caixa-informa button a{
-
-    }
-
-    #Caixa-orga #Caixa-produto{
-
-    }
-
-    #Caixa-orga #Caixa-produto img{
-    
-    }
-
-
-    #prin .elemento-opaco{
-
-
-    }
-
-    #prin #elemento-solido{
-
-    }
-
-    #prin #elemento-linha{
-
-
-    }
-
-    /* Rodape */
-
-    footer{
-    
-    }
-
-    footer #Conteudo{
-
-
-    }
-
-    footer #Conteudo #elemento{
-
-    }
-
-    footer #Conteudo #ele-linha{
-
-    }
-
-
-    footer #Conteudo #orga-footer{
-    
-    }
-
-    footer #Conteudo img{
-    
-    }
-
-    footer #Conteudo #orga-footer p{
-    
-
-    }
-
-    footer #Conteudo #orga-footer h1{
-
-    }
-
-    footer #Conteudo #orga-footer form{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha{
-        
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
-    
-    }
-
-    footer #Conteudo #orga-footer form button{
-        
-
-    }
-
-    footer #Conteudo #orga-footer form button a{
-        
-    }
-
-    footer #Rodape{
-
-    }
-}
-
-@media screen and (max-width:2560px){
-        header{
-
-    }
-
-    header img{
-
-    }
-
-    header nav{
-
-    }
-
-    header nav a{
-
-    }
-
-    #prin{
-
-    }
-
-    #prin img{
-    
-    }
-
-    #Caixa-orga{
-    
-        
-    }
-
-    #Caixa-orga #Caixa-informa{
-
-    }
-
-    #Caixa-orga #Caixa-informa h1{
-
-    }
-
-    #Caixa-orga #Caixa-informa p{
-
-    }
-
-    #Caixa-orga #Caixa-informa button{
-
-    }
-
-    #Caixa-orga #Caixa-informa button a{
-
-    }
-
-    #Caixa-orga #Caixa-produto{
-
-    }
-
-    #Caixa-orga #Caixa-produto img{
-    
-    }
-
-
-    #prin .elemento-opaco{
-
-
-    }
-
-    #prin #elemento-solido{
-
-    }
-
-    #prin #elemento-linha{
-
-
-    }
-
-    /* Rodape */
-
-    footer{
-    
-    }
-
-    footer #Conteudo{
-
-
-    }
-
-    footer #Conteudo #elemento{
-
-    }
-
-    footer #Conteudo #ele-linha{
-
-    }
-
-
-    footer #Conteudo #orga-footer{
-    
-    }
-
-    footer #Conteudo img{
-    
-    }
-
-    footer #Conteudo #orga-footer p{
-    
-
-    }
-
-    footer #Conteudo #orga-footer h1{
-
-    }
-
-    footer #Conteudo #orga-footer form{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha{
-        
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input{
-    
-    }
-
-    footer #Conteudo #orga-footer form #orga-linha input::placeholder{
-    
-    }
-
-    footer #Conteudo #orga-footer form button{
-        
-
-    }
-
-    footer #Conteudo #orga-footer form button a{
-        
-    }
-
-    footer #Rodape{
-
-    }
-}
