@@ -13,8 +13,6 @@
     
     <header>
 
-
-
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/header/BrandPersona_Marca-03 1.png" alt="Logo">
 
         <nav>
