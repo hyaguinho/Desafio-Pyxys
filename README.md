@@ -39,7 +39,7 @@ tanto em pouco tempo. Com certeza foi uma experiência muito valiosa!
 OBS: Na parte da responsividade esse desafio foi o meu primeiro site com responsividade que eu realizei, então eu tive algumas
  dificuldades em realiazar esse processo, mas nada que umas
 video-aulas não resolva kkk, eu fiz a responsividade para celulares(com larguras maximas de 360px e 393px) e tablets( minimos
-de 767 e maximos de 1114px).
+de 767 e maximos de 1114px) e a tela que eu utilizei para realizar o desafio foi (1920 X 945 ou tela cheia(1920 X 1032)).
 Se quiserem utilizar uma extensão de simulador de dispositivos no chrome, eu deixo como dica oque eu utilizei (Simulador móvel
 - ferramenta de teste responsiva -
 https://chrome.google.com/webstore/detail/simulateur-mobile/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=pt-BR) Quebrou um galho quando
